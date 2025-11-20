@@ -1,3 +1,5 @@
+## Cenário 07: Realizar uma Venda
+
 ### Caso de Teste 01: Venda válida.
 
 | ID       | Descrição                                            |
