@@ -40,7 +40,7 @@
 | **DADO** que estamos na página "Cadastrar Cliente"                |
 | **E** preenchemos "José Santos" no campo Nome                     |
 | **E** preenchemos "11111111111" no campo CPF                      |
-| **E** preenchemos "jose@email.com" no campo E-mail                |
+| **E** preenchemos "endereço" no campo CEP                         |
 | **QUANDO** clicarmos no botão "Salvar"                            |
 | **ENTÃO** uma mensagem de erro "CPF inválido" será exibida |
 
