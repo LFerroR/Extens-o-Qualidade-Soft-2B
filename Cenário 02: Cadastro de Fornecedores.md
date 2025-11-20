@@ -74,6 +74,6 @@
 ## 🔗 Evidências (Jam.dev)
 
 - **C01-CT01** → [Execução](https://jam.dev/c/5ede05e7-d9b3-49db-96df-332cf447653a) 
-- **C01-CT02** → [Execução](https://jam.dev/c/b8acb042-ea6d-4466-901c-dd2c0070aba5)  
+- **C01-CT02** → [Execução](https://jam.dev/c/955d152e-d266-427d-aea5-2ccd3d7a6f10) 
 - **C01-CT03** → [Execução](https://jam.dev/c/5b7d1c8c-cdc7-4540-8161-91aad842ef4e) 
 
