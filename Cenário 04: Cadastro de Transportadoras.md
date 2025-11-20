@@ -15,7 +15,8 @@
 | **DADO** que estamos na página "Cadastrar Transportadora"                      |
 | **E** preenchemos "TransLog Brasil" no campo Nome                               |
 | **E** preenchemos "12.345.678/0001-90" no campo CNPJ                            |
-| **QUANDO** clicarmos no botão "Salvar"                                         |
+| **E** preenchemos "endereço" no campo CEP                                       |
+| **QUANDO** clicarmos no botão "Salvar"                                          |
 | **ENTÃO** a transportadora será cadastrada com sucesso                          |
 
 | **Critérios de aceitação**                |
@@ -39,8 +40,9 @@
 | **DADO** que estamos na página "Cadastrar Transportadora"                   |
 | **E** preenchemos "TransLog Brasil" no campo Nome                           |
 | **E** preenchemos "00.000.000/0000-00" no campo CNPJ                        |
+| **E** preenchemos "endereço" no campo CEP                                   |
 | **QUANDO** clicarmos no botão "Salvar"                                      |
-| **ENTÃO** será exibida a mensagem "CNPJ inválido"                            |
+| **ENTÃO** será exibida a mensagem "CNPJ inválido"                           |
 
 | **Critérios de aceitação**           |
 | :----------------------------------- |
@@ -63,6 +65,7 @@
 | **DADO** que estamos na página "Cadastrar Transportadora"                   |
 | **E** preenchemos "TransLog Brasil" no campo Nome                           |
 | **E** preenchemos "12.345.678/0001-90" no campo CNPJ                        |
+| **E** preenchemos "endereço" no campo CEP                                   |
 | **QUANDO** clicarmos no botão "Salvar"                                      |
 | **ENTÃO** o sistema exibirá "Transportadora já cadastrada"                  |
 
