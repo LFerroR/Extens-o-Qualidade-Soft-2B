@@ -15,8 +15,7 @@
 | **DADO** que estamos na página "Cadastrar Cliente"                |
 | **E** preenchemos "João Silva" no campo Nome                      |
 | **E** preenchemos "123.456.789-00" no campo CPF                   |
-| **E** preenchemos "joao@email.com" no campo E-mail                |
-| **E** preenchemos "11999999999" no campo Telefone                 |
+| **E** preenchemos "endereço" no campo CEP                         |
 | **QUANDO** clicarmos no botão "Salvar"                            |
 | **ENTÃO** o cliente será cadastrado com sucesso                   |
 
