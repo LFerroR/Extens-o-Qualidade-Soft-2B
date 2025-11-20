@@ -4,70 +4,72 @@
 
 | ID       | Descrição                                                |
 | :------- | :------------------------------------------------------- |
-| C01-CT01 | O login será realizado com um nome de usuário e uma senha válidos. |
+| C2-CT01 | O fornecedor será cadastrado com CNPJ e dados válidos.    |
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
-| As credenciais fornecidas (usuário e senha) devem ser válidas. |
+| Estar na página "Cadastrar Fornecedor".                       |
 
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
-| **DADO** que estamos na página de login do OrangeHRM              |
-| **E** preenchemos "Admin" no campo usuário                        |
-| **E** preenchemos "admin123" no campo senha                       |
-| **QUANDO** clicarmos no botão "Login"                             |
-| **ENTÃO** seremos redirecionados para o Dashboard do sistema      |
+| **DADO** que estamos na página "Cadastrar Fornecedor"             |
+| **E** preenchemos "Tech Suprimentos LTDA" no campo Razão Social   |
+| **E** preenchemos "12.345.678/0001-90" no campo CNPJ              |
+| **E** preenchemos "contato@tech.com" no campo E-mail              |
+| **QUANDO** clicarmos no botão "Salvar"                            |
+| **ENTÃO** o fornecedor será cadastrado com sucesso                |
 
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
-| O redirecionamento para o Dashboard deve ocorrer corretamente.  |
+| O fornecedor deve aparecer na listagem após o cadastro.         |
 
 ---
 
-### Caso de Teste 02: Tentativa de login com senha incorreta.
+### Caso de Teste 02: Tentativa de cadastrar fornecedor com CNPJ inválido.
 
 | ID       | Descrição                                                |
 | :------- | :------------------------------------------------------- |
-| C01-CT02 | O login falhará quando a senha for inválida.             |
+| C02-CT02 | O cadastro falhará quando o CNPJ informado for inválido. |
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
-| O usuário \"Admin\" deve existir no sistema. |
+| Estar na página "Cadastrar Fornecedor".                       |
 
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
-| **DADO** que estamos na página de login do OrangeHRM              |
-| **E** preenchemos "Admin" no campo usuário                        |
-| **E** preenchemos "senhaerrada" no campo senha                    |
-| **QUANDO** clicarmos no botão "Login"                             |
-| **ENTÃO** uma mensagem de erro \"Invalid credentials\" será exibida |
+| **DADO** que estamos na página "Cadastrar Fornecedor"             |
+| **E** preenchemos "Papelaria Global LTDA" no campo Razão Social   |
+| **E** preenchemos "00000000000000" no campo CNPJ                  |
+| **QUANDO** clicarmos no botão "Salvar"                            |
+| **ENTÃO** o sistema exibirá a mensagem "CNPJ inválido"            |
 
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
-| A mensagem de erro \"Invalid credentials\" deve ser exibida.    |
+| O cadastro não deve ser concluído.                              |
 
 ---
 
-### Caso de Teste 03: Tentativa de login com campos em branco.
+### Caso de Teste 03: Tentativa de cadastrar fornecedor já existente.
 
 | ID       | Descrição                                                |
 | :------- | :------------------------------------------------------- |
-| C01-CT03 | O login falhará quando os campos obrigatórios estiverem em branco. |
+| C03-CT03 | O sistema deve impedir o cadastro com CNPJ duplicado.    |
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
-| Nenhuma. |
+| Fornecedor com CNPJ "12.345.678/0001-90" já cadastrado.       |
 
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
-| **DADO** que estamos na página de login do OrangeHRM              |
-| **E** deixamos os campos de usuário e senha em branco             |
-| **QUANDO** clicarmos no botão "Login"                             |
-| **ENTÃO** deve ser exibida a mensagem \"Required\" em ambos os campos |
+| **DADO** que estamos na página "Cadastrar Fornecedor"             |
+| **E** preenchemos "Tech Suprimentos LTDA" no campo Razão Social   |
+| **E** preenchemos "12.345.678/0001-90" no campo CNPJ              |
+| **QUANDO** clicarmos em "Salvar"                                  |
+| **ENTÃO** o sistema exibirá a mensagem "Fornecedor já cadastrado" |
 
 | **Critérios de aceitação**                                      |
 | :-------------------------------------------------------------- |
-| Os campos obrigatórios devem exibir mensagens de validação.     |
+| O registro duplicado não deve ser salvo.                        |
 
 ## 🔗 Evidências (Jam.dev)
 
