@@ -61,7 +61,7 @@
 | **Passos**                                                                  |
 | :-------------------------------------------------------------------------- |
 | **DADO** que estamos na página "Registrar Compra"                           |
-| **E** selecionamos o fornecedor "Tech Suprimentos LTDA"                     |
+| **E** selecionamos o fornecedor "Ferro LTDA"                     |
 | **E** não adicionamos nenhum produto                                        |
 | **QUANDO** clicarmos em "Confirmar Compra"                                  |
 | **ENTÃO** será exibida a mensagem "Adicione pelo menos um produto"          |
@@ -74,5 +74,5 @@
 
 - **C01-CT01** → [Execução](https://jam.dev/c/1fc7ceaa-026c-4b04-ae4f-e032edb6f6dd)
 - **C01-CT02** → [Execução](https://jam.dev/c/9120ecd3-f08c-4959-a4aa-d078088ec74f) 
-- **C01-CT03** → [Execução](https://jam.dev/c/5b7d1c8c-cdc7-4540-8161-91aad842ef4e) 
+- **C01-CT03** → [Execução](https://jam.dev/c/5b8ac776-9229-4804-8706-e517254627ae)
 
