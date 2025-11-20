@@ -73,7 +73,7 @@
 ## 🔗 Evidências (Jam.dev)
 
 - **C01-CT01** → [Execução](https://jam.dev/c/336d03ed-3b90-44a1-989c-a8c84b70db57) 
-- **C01-CT02** → [Execução](https://jam.dev/c/b8acb042-ea6d-4466-901c-dd2c0070aba5)  
+- **C01-CT02** → [Execução](https://jam.dev/c/f34bea99-92c4-4165-aa9d-5248f8d42a9e)  
 - **C01-CT03** → [Execução](https://jam.dev/c/5b7d1c8c-cdc7-4540-8161-91aad842ef4e) 
 
 
