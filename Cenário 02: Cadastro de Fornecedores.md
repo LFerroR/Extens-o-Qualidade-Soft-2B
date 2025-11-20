@@ -15,7 +15,6 @@
 | **DADO** que estamos na página "Cadastrar Fornecedor"             |
 | **E** preenchemos "Ferro LTDA" no campo Razão Social   |
 | **E** preenchemos "12.345.678/0001-90" no campo CNPJ              |
-| **E** preenchemos "contato@tech.com" no campo E-mail              |
 | **QUANDO** clicarmos no botão "Salvar"                            |
 | **ENTÃO** o fornecedor será cadastrado com sucesso                |
 
