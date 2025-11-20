@@ -13,7 +13,7 @@
 | **Passos**                                                                          |
 | :---------------------------------------------------------------------------------- |
 | **DADO** que estamos na página "Registrar Compra"                                    |
-| **E** selecionamos o fornecedor "Tech Suprimentos LTDA"                              |
+| **E** selecionamos o fornecedor "Ferro LTDA"                              |
 | **E** adicionamos o produto "Monitor 24 Polegadas" quantidade "10"                   |
 | **QUANDO** clicarmos em "Confirmar Compra"                                           |
 | **ENTÃO** a compra será registrada com sucesso                                       |
