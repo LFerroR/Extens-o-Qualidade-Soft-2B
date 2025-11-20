@@ -37,7 +37,7 @@
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
 | **DADO** que estamos na página "Cadastrar Fornecedor"             |
-| **E** preenchemos "Ferro LTDA LTDA" no campo Razão Social   |
+| **E** preenchemos "Ferro LTDA" no campo Razão Social   |
 | **E** preenchemos "00000000000000" no campo CNPJ                  |
 | **QUANDO** clicarmos no botão "Salvar"                            |
 | **ENTÃO** o sistema exibirá a mensagem "CNPJ inválido"            |
