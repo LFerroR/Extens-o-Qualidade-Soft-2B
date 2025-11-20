@@ -74,6 +74,6 @@
 
 - **C01-CT01** → [Execução](https://jam.dev/c/2b39963b-6b9e-4c42-a6d8-5210f2705907) 
 - **C01-CT02** → [Execução](https://jam.dev/c/c3f21786-5911-41fa-98a7-be64bc2ff66b) 
-- **C01-CT03** → [Execução](https://jam.dev/c/5b7d1c8c-cdc7-4540-8161-91aad842ef4e) 
+- **C01-CT03** → [Execução](https://jam.dev/c/b655d298-bcec-4a78-92f6-f406caee84bc)
 
 
