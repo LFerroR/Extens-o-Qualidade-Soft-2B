@@ -13,7 +13,7 @@
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
 | **DADO** que estamos na página "Cadastrar Fornecedor"             |
-| **E** preenchemos "Tech Suprimentos LTDA" no campo Razão Social   |
+| **E** preenchemos "Ferro LTDA" no campo Razão Social   |
 | **E** preenchemos "12.345.678/0001-90" no campo CNPJ              |
 | **E** preenchemos "contato@tech.com" no campo E-mail              |
 | **QUANDO** clicarmos no botão "Salvar"                            |
@@ -38,7 +38,7 @@
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
 | **DADO** que estamos na página "Cadastrar Fornecedor"             |
-| **E** preenchemos "Papelaria Global LTDA" no campo Razão Social   |
+| **E** preenchemos "Ferro LTDA LTDA" no campo Razão Social   |
 | **E** preenchemos "00000000000000" no campo CNPJ                  |
 | **QUANDO** clicarmos no botão "Salvar"                            |
 | **ENTÃO** o sistema exibirá a mensagem "CNPJ inválido"            |
@@ -62,7 +62,7 @@
 | **Passos**                                                        |
 | :---------------------------------------------------------------- |
 | **DADO** que estamos na página "Cadastrar Fornecedor"             |
-| **E** preenchemos "Tech Suprimentos LTDA" no campo Razão Social   |
+| **E** preenchemos "Ferro LTDA LTDA" no campo Razão Social   |
 | **E** preenchemos "12.345.678/0001-90" no campo CNPJ              |
 | **QUANDO** clicarmos em "Salvar"                                  |
 | **ENTÃO** o sistema exibirá a mensagem "Fornecedor já cadastrado" |
